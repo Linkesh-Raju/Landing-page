@@ -87,3 +87,37 @@ img{
     border:#3883F6;
     border-radius: 10px;
 }
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-of-blue-divs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:100%;
+    align-items: center;
+}
+
+.blue-box{
+    border: 2px solid #3883F6;
+    width: 200px;
+    height:200px;
+    border-radius:5px;
+
+}
+
+ .second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-secondd{
+    text-align: center;
+    font-size: 18px;
+}
